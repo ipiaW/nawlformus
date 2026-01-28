@@ -1,0 +1,1034 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NullForums - Underground Community</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <div class="gradient-sphere sphere-1"></div>
+        <div class="gradient-sphere sphere-2"></div>
+        <div class="gradient-sphere sphere-3"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-skull"></i>
+                    </div>
+                    <span class="logo-text">Null<span class="highlight">Forums</span></span>
+                </div>
+                
+                <nav class="nav-menu" id="navMenu">
+                    <a href="#" class="nav-link active"><i class="fas fa-home"></i> Home</a>
+                    <a href="#forums" class="nav-link"><i class="fas fa-comments"></i> Forums</a>
+                    <a href="#members" class="nav-link"><i class="fas fa-users"></i> Members</a>
+                    <a href="#market" class="nav-link"><i class="fas fa-store"></i> Market</a>
+                    <a href="#" class="nav-link"><i class="fas fa-newspaper"></i> News</a>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search..." id="searchInput">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <button class="btn btn-outline" id="loginBtn">
+                        <i class="fas fa-sign-in-alt"></i> Login
+                    </button>
+                    <button class="btn btn-primary" id="registerBtn">
+                        <i class="fas fa-user-plus"></i> Register
+                    </button>
+                    <button class="mobile-menu-btn" id="mobileMenuBtn">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>Trusted Community Since 2024</span>
+                </div>
+                <h1 class="hero-title">
+                    Welcome to <span class="gradient-text">NullForums</span>
+                </h1>
+                <p class="hero-subtitle">
+                    The most advanced underground community for developers, hackers, and digital enthusiasts. 
+                    Join thousands of members sharing knowledge and resources.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary btn-lg">
+                        <i class="fas fa-rocket"></i> Get Started
+                    </button>
+                    <button class="btn btn-outline btn-lg">
+                        <i class="fas fa-play-circle"></i> Learn More
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="50000">0</div>
+                        <div class="stat-label">Members</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="125000">0</div>
+                        <div class="stat-label">Posts</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="15000">0</div>
+                        <div class="stat-label">Topics</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="99">0</div>
+                        <div class="stat-label">Online</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                <!-- Forums Section -->
+                <div class="forums-section" id="forums">
+                    <!-- Announcements -->
+                    <div class="forum-category">
+                        <div class="category-header">
+                            <div class="category-icon announcement">
+                                <i class="fas fa-bullhorn"></i>
+                            </div>
+                            <div class="category-info">
+                                <h2>📢 Announcements</h2>
+                                <p>Official news, updates, and important information</p>
+                            </div>
+                            <div class="category-stats">
+                                <span><i class="fas fa-file-alt"></i> 156 Topics</span>
+                                <span><i class="fas fa-comment"></i> 2.3K Posts</span>
+                            </div>
+                        </div>
+                        <div class="forum-list">
+                            <div class="forum-item">
+                                <div class="forum-icon">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Rules & Guidelines</a></h3>
+                                    <p>Community rules and posting guidelines. Read before posting!</p>
+                                    <div class="forum-meta">
+                                        <span class="tag tag-important">Important</span>
+                                        <span class="tag tag-pinned">Pinned</span>
+                                    </div>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">45</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">892</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Admin" alt="Admin">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">Updated Community Guidelines 2024</a>
+                                        <span class="latest-meta">by <a href="#">Admin</a> • 2 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon">
+                                    <i class="fas fa-newspaper"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">News & Updates</a></h3>
+                                    <p>Latest news about the forum and community updates</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">111</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">1.4K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Moderator" alt="Mod">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">New Features Released!</a>
+                                        <span class="latest-meta">by <a href="#">Moderator</a> • 5 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Discussion -->
+                    <div class="forum-category">
+                        <div class="category-header">
+                            <div class="category-icon discussion">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="category-info">
+                                <h2>💬 Main Discussion</h2>
+                                <p>General discussions and community chat</p>
+                            </div>
+                            <div class="category-stats">
+                                <span><i class="fas fa-file-alt"></i> 5.2K Topics</span>
+                                <span><i class="fas fa-comment"></i> 45K Posts</span>
+                            </div>
+                        </div>
+                        <div class="forum-list">
+                            <div class="forum-item">
+                                <div class="forum-icon">
+                                    <i class="fas fa-coffee"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Lounge</a></h3>
+                                    <p>Hang out and chat with other members</p>
+                                    <div class="forum-meta">
+                                        <span class="tag tag-hot">🔥 Hot</span>
+                                    </div>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">2.1K</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">18K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=CyberNinja" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">What are you doing today?</a>
+                                        <span class="latest-meta">by <a href="#">CyberNinja</a> • 3 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon">
+                                    <i class="fas fa-question-circle"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Questions & Answers</a></h3>
+                                    <p>Ask questions and get help from the community</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">1.8K</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">15K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=DevMaster" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">How to setup VPN properly?</a>
+                                        <span class="latest-meta">by <a href="#">DevMaster</a> • 15 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon">
+                                    <i class="fas fa-user-friends"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Introductions</a></h3>
+                                    <p>Introduce yourself to the community</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">1.3K</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">12K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=NewUser123" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">Hey everyone! New here 👋</a>
+                                        <span class="latest-meta">by <a href="#">NewUser123</a> • 1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programming -->
+                    <div class="forum-category">
+                        <div class="category-header">
+                            <div class="category-icon programming">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="category-info">
+                                <h2>💻 Programming & Development</h2>
+                                <p>Coding, scripts, and development resources</p>
+                            </div>
+                            <div class="category-stats">
+                                <span><i class="fas fa-file-alt"></i> 3.8K Topics</span>
+                                <span><i class="fas fa-comment"></i> 28K Posts</span>
+                            </div>
+                        </div>
+                        <div class="forum-list">
+                            <div class="forum-item">
+                                <div class="forum-icon python">
+                                    <i class="fab fa-python"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Python</a></h3>
+                                    <p>Python programming, scripts, and tutorials</p>
+                                    <div class="forum-meta">
+                                        <span class="tag tag-popular">Popular</span>
+                                    </div>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">892</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">7.2K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=PythonDev" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Release] Discord Bot v2.0</a>
+                                        <span class="latest-meta">by <a href="#">PythonDev</a> • 30 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon javascript">
+                                    <i class="fab fa-js-square"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">JavaScript & Web Dev</a></h3>
+                                    <p>JavaScript, Node.js, React, and web development</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">756</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">5.8K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=JSMaster" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">React vs Vue - Which is better?</a>
+                                        <span class="latest-meta">by <a href="#">JSMaster</a> • 45 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon csharp">
+                                    <i class="fas fa-hashtag"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">C# & .NET</a></h3>
+                                    <p>C# programming and .NET framework</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">445</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">3.2K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=DotNetPro" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Tutorial] Building APIs with .NET 8</a>
+                                        <span class="latest-meta">by <a href="#">DotNetPro</a> • 2 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Marketplace -->
+                    <div class="forum-category" id="market">
+                        <div class="category-header">
+                            <div class="category-icon marketplace">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <div class="category-info">
+                                <h2>🛒 Marketplace</h2>
+                                <p>Buy, sell, and trade digital goods</p>
+                            </div>
+                            <div class="category-stats">
+                                <span><i class="fas fa-file-alt"></i> 2.5K Topics</span>
+                                <span><i class="fas fa-comment"></i> 18K Posts</span>
+                            </div>
+                        </div>
+                        <div class="forum-list">
+                            <div class="forum-item">
+                                <div class="forum-icon selling">
+                                    <i class="fas fa-tag"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Selling</a></h3>
+                                    <p>Sell your products and services</p>
+                                    <div class="forum-meta">
+                                        <span class="tag tag-verified">Verified Sellers</span>
+                                    </div>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">1.2K</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">9.5K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar verified">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Seller1" alt="User">
+                                        <span class="verified-badge"><i class="fas fa-check"></i></span>
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Selling] Premium Accounts</a>
+                                        <span class="latest-meta">by <a href="#">VerifiedSeller</a> • 10 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon buying">
+                                    <i class="fas fa-shopping-cart"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Buying</a></h3>
+                                    <p>Request products or services</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">856</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">5.2K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Buyer1" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[WTB] Looking for web developer</a>
+                                        <span class="latest-meta">by <a href="#">Buyer123</a> • 25 min ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Resources -->
+                    <div class="forum-category">
+                        <div class="category-header">
+                            <div class="category-icon resources">
+                                <i class="fas fa-download"></i>
+                            </div>
+                            <div class="category-info">
+                                <h2>📦 Resources & Downloads</h2>
+                                <p>Free resources, tools, and downloads</p>
+                            </div>
+                            <div class="category-stats">
+                                <span><i class="fas fa-file-alt"></i> 1.8K Topics</span>
+                                <span><i class="fas fa-comment"></i> 12K Posts</span>
+                            </div>
+                        </div>
+                        <div class="forum-list">
+                            <div class="forum-item">
+                                <div class="forum-icon tools">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Tools & Software</a></h3>
+                                    <p>Useful tools and software for various purposes</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">678</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">4.5K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=ToolsMaster" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Release] All-in-One Toolkit v3.5</a>
+                                        <span class="latest-meta">by <a href="#">ToolsMaster</a> • 1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon tutorials">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">Tutorials & Guides</a></h3>
+                                    <p>Learn new skills with community tutorials</p>
+                                    <div class="forum-meta">
+                                        <span class="tag tag-new">New</span>
+                                    </div>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">534</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">3.8K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Teacher" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Guide] Complete Beginner's Guide</a>
+                                        <span class="latest-meta">by <a href="#">Teacher</a> • 3 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="forum-item">
+                                <div class="forum-icon ebooks">
+                                    <i class="fas fa-book"></i>
+                                </div>
+                                <div class="forum-details">
+                                    <h3><a href="#">E-Books & Courses</a></h3>
+                                    <p>Educational materials and online courses</p>
+                                </div>
+                                <div class="forum-stats">
+                                    <div class="stat">
+                                        <span class="count">412</span>
+                                        <span class="label">Topics</span>
+                                    </div>
+                                    <div class="stat">
+                                        <span class="count">2.9K</span>
+                                        <span class="label">Posts</span>
+                                    </div>
+                                </div>
+                                <div class="forum-latest">
+                                    <div class="latest-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=BookWorm" alt="User">
+                                    </div>
+                                    <div class="latest-info">
+                                        <a href="#" class="latest-title">[Share] Udemy Course Collection</a>
+                                        <span class="latest-meta">by <a href="#">BookWorm</a> • 4 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="sidebar" id="members">
+                    <!-- Online Users -->
+                    <div class="sidebar-card online-users">
+                        <div class="card-header">
+                            <h3><i class="fas fa-circle pulse"></i> Online Now</h3>
+                            <span class="badge">99</span>
+                        </div>
+                        <div class="card-body">
+                            <div class="online-avatars">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User1" alt="User" title="User1">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User2" alt="User" title="User2">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User3" alt="User" title="User3">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User4" alt="User" title="User4">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User5" alt="User" title="User5">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User6" alt="User" title="User6">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User7" alt="User" title="User7">
+                                <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=User8" alt="User" title="User8">
+                                <div class="more-users">+91</div>
+                            </div>
+                            <div class="online-stats">
+                                <div class="online-stat">
+                                    <span class="dot members"></span>
+                                    <span>67 Members</span>
+                                </div>
+                                <div class="online-stat">
+                                    <span class="dot guests"></span>
+                                    <span>32 Guests</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Latest Posts -->
+                    <div class="sidebar-card latest-posts">
+                        <div class="card-header">
+                            <h3><i class="fas fa-clock"></i> Latest Posts</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="post-list">
+                                <div class="post-item">
+                                    <div class="post-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Poster1" alt="User">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="#" class="post-title">Need help with Python script</a>
+                                        <div class="post-meta">
+                                            <span class="author">CodeMaster</span>
+                                            <span class="time">2 min ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-item">
+                                    <div class="post-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Poster2" alt="User">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="#" class="post-title">[Selling] Premium Netflix Accounts</a>
+                                        <div class="post-meta">
+                                            <span class="author">Seller123</span>
+                                            <span class="time">5 min ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-item">
+                                    <div class="post-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Poster3" alt="User">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="#" class="post-title">Best VPN for privacy in 2024?</a>
+                                        <div class="post-meta">
+                                            <span class="author">PrivacyGuru</span>
+                                            <span class="time">12 min ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-item">
+                                    <div class="post-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Poster4" alt="User">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="#" class="post-title">New member introduction 👋</a>
+                                        <div class="post-meta">
+                                            <span class="author">NewbieDev</span>
+                                            <span class="time">18 min ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="post-item">
+                                    <div class="post-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=Poster5" alt="User">
+                                    </div>
+                                    <div class="post-content">
+                                        <a href="#" class="post-title">[Tutorial] How to setup Docker</a>
+                                        <div class="post-meta">
+                                            <span class="author">DevOpsKing</span>
+                                            <span class="time">25 min ago</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Top Members -->
+                    <div class="sidebar-card top-members">
+                        <div class="card-header">
+                            <h3><i class="fas fa-trophy"></i> Top Members</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="member-list">
+                                <div class="member-item">
+                                    <span class="rank gold">1</span>
+                                    <div class="member-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TopMember1" alt="User">
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="member-name">DarkLord</span>
+                                        <span class="member-posts">15,234 posts</span>
+                                    </div>
+                                    <div class="member-badge admin">
+                                        <i class="fas fa-shield-alt"></i>
+                                    </div>
+                                </div>
+                                <div class="member-item">
+                                    <span class="rank silver">2</span>
+                                    <div class="member-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TopMember2" alt="User">
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="member-name">CyberPhantom</span>
+                                        <span class="member-posts">12,567 posts</span>
+                                    </div>
+                                    <div class="member-badge mod">
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                                <div class="member-item">
+                                    <span class="rank bronze">3</span>
+                                    <div class="member-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TopMember3" alt="User">
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="member-name">HexMaster</span>
+                                        <span class="member-posts">9,845 posts</span>
+                                    </div>
+                                    <div class="member-badge vip">
+                                        <i class="fas fa-gem"></i>
+                                    </div>
+                                </div>
+                                <div class="member-item">
+                                    <span class="rank">4</span>
+                                    <div class="member-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TopMember4" alt="User">
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="member-name">NightCrawler</span>
+                                        <span class="member-posts">8,123 posts</span>
+                                    </div>
+                                </div>
+                                <div class="member-item">
+                                    <span class="rank">5</span>
+                                    <div class="member-avatar">
+                                        <img src="https://api.dicebear.com/7.x/avataaars/svg?seed=TopMember5" alt="User">
+                                    </div>
+                                    <div class="member-info">
+                                        <span class="member-name">ByteRunner</span>
+                                        <span class="member-posts">7,456 posts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Forum Stats -->
+                    <div class="sidebar-card forum-statistics">
+                        <div class="card-header">
+                            <h3><i class="fas fa-chart-bar"></i> Forum Statistics</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="stats-grid">
+                                <div class="stat-box">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-users"></i>
+                                    </div>
+                                    <div class="stat-data">
+                                        <span class="stat-value">50,234</span>
+                                        <span class="stat-label">Total Members</span>
+                                    </div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-comments"></i>
+                                    </div>
+                                    <div class="stat-data">
+                                        <span class="stat-value">125,678</span>
+                                        <span class="stat-label">Total Posts</span>
+                                    </div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-folder"></i>
+                                    </div>
+                                    <div class="stat-data">
+                                        <span class="stat-value">15,432</span>
+                                        <span class="stat-label">Total Topics</span>
+                                    </div>
+                                </div>
+                                <div class="stat-box">
+                                    <div class="stat-icon">
+                                        <i class="fas fa-user-plus"></i>
+                                    </div>
+                                    <div class="stat-data">
+                                        <span class="stat-value">NewUser2024</span>
+                                        <span class="stat-label">Newest Member</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Discord Widget -->
+                    <div class="sidebar-card discord-widget">
+                        <div class="card-header discord">
+                            <h3><i class="fab fa-discord"></i> Join Discord</h3>
+                        </div>
+                        <div class="card-body">
+                            <div class="discord-content">
+                                <div class="discord-logo">
+                                    <i class="fab fa-discord"></i>
+                                </div>
+                                <p>Join our Discord server for real-time chat and support!</p>
+                                <div class="discord-stats">
+                                    <span><i class="fas fa-circle online"></i> 234 Online</span>
+                                    <span><i class="fas fa-users"></i> 5,678 Members</span>
+                                </div>
+                                <button class="btn btn-discord">
+                                    <i class="fab fa-discord"></i> Join Server
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-skull"></i>
+                        </div>
+                        <span class="logo-text">Null<span class="highlight">Forums</span></span>
+                    </div>
+                    <p>The most trusted underground community for developers and enthusiasts. Join us today!</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-discord"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#forums">Forums</a></li>
+                        <li><a href="#members">Members</a></li>
+                        <li><a href="#market">Marketplace</a></li>
+                        <li><a href="#">VIP Upgrade</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">Tools</a></li>
+                        <li><a href="#">Downloads</a></li>
+                        <li><a href="#">E-Books</a></li>
+                        <li><a href="#">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Report Bug</a></li>
+                        <li><a href="#">Suggestions</a></li>
+                        <li><a href="#">Staff Apply</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">DMCA</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NullForums. All rights reserved. Made with <i class="fas fa-heart"></i> by the community.</p>
+                <div class="footer-badges">
+                    <span class="badge"><i class="fas fa-shield-alt"></i> Secure</span>
+                    <span class="badge"><i class="fas fa-lock"></i> Encrypted</span>
+                    <span class="badge"><i class="fas fa-bolt"></i> Fast</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="loginModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeLoginModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <div class="modal-icon">
+                    <i class="fas fa-sign-in-alt"></i>
+                </div>
+                <h2>Welcome Back!</h2>
+                <p>Sign in to your account</p>
+            </div>
+            <form class="modal-form" id="loginForm">
+                <div class="form-group">
+                    <label for="loginUsername">
+                        <i class="fas fa-user"></i>
+                        Username or Email
+                    </label>
+                    <input type="text" id="loginUsername" placeholder="Enter your username or email" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">
+                        <i class="fas fa-lock"></i>
+                        Password
+                    </label>
+                    <input type="password" id="loginPassword" placeholder="Enter your password" required>
+                    <button type="button" class="password-toggle">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="rememberMe">
+                        <span class="checkmark"></span>
+                        Remember me
+                    </label>
+                    <a href="#" class="forgot-link">Forgot Password?</a>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-sign-in-alt"></i> Sign In
+                </button>
+            </form>
+            <div class="modal-footer">
+                <p>Don't have an account? <a href="#" id="switchToRegister">Register Now</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="registerModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeRegisterModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-header">
+                <div class="modal-icon register">
+                    <i class="fas fa-user-plus"></i>
+                </div>
+                <h2>Join NullForums</h2>
+                <p>Create your free account</p>
+            </div>
+            <form class="modal-form" id="registerForm">
+                <div class="form-group">
+                    <label for="registerUsername">
+                        <i class="fas fa-user"></i>
+                        Username
+                    </label>
+                    <input type="text" id="registerUsername" placeholder="Choose a username" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">
+                        <i class="fas fa-envelope"></i>
+                        Email Address
+                    </label>
+                    <input type="email" id="registerEmail" placeholder="Enter your email" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">
+                        <i class="fas fa-lock"></i>
+                        Password
+                    </label>
+                    <input type="password" id="registerPassword" placeholder="Create a password" required>
+                    <button type="button" class="password-toggle">
+                        <i class="fas fa-eye"></i>
+                    </button>
+                </div>
+                <div class="form-group">
+                    <label for="confirmPassword">
+                        <i class="fas fa-lock"></i>
+                        Confirm Password
+                    </label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm your password" required>
+                </div>
+                <div class="form-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="agreeTerms" required>
+                        <span class="checkmark"></span>
+                        I agree to the <a href="#">Terms of Service</a>
+                    </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">
+                    <i class="fas fa-user-plus"></i> Create Account
+                </button>
+            </form>
+            <div class="modal-footer">
+                <p>Already have an account? <a href="#" id="switchToLogin">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast">
+        <div class="toast-icon">
+            <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="toast-message"></div>
+        <button class="toast-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <!-- Back to Top -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
